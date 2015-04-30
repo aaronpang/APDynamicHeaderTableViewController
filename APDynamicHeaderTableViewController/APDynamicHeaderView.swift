@@ -16,7 +16,7 @@ class APDynamicHeaderView : UIView {
   // MARK: Lifecycle
   
   /**
-  Desiginated Initializer. Defaults the size of the header view to the expanded size.
+  Designated Initializer. Defaults the size of the header view to the expanded size.
   */
   init() {
     super.init(frame: CGRectZero)
