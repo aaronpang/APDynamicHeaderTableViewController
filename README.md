@@ -65,7 +65,7 @@ The content of the header view. Set this content view to be any UIView you like.
 ## Contact
 
 * [@aaronpango](https://twitter.com/AaronPango) on Twitter
-* <a href="mailTo:pang.aaron56@gmail.com">pang.aaron56@gmail.com</a>
+* <a href="mailTo:pang.aaron56@gmail.com">pang.aaron56 [at] gmail [dot] com</a>
 
 ## License
 
