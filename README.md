@@ -40,7 +40,7 @@ There are 2 initializers. The first one is the default init() function that sets
 
 ## Properties
 
-APDynamicTableViewController
+***APDynamicTableViewController***
 
 ```swift
 let headerView
@@ -54,11 +54,7 @@ let tableView
 
 The table view. Simply set the data source and delegate for the table view and adjust the info in the table view when need be.
 
-```swift
-let tableView
-```
-
-APDynamicHeaderView
+***APDynamicHeaderView***
 
 ```swift
 var contentView
