@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E30162681AF1BBA100730D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30162671AF1BBA100730D27 /* AppDelegate.swift */; };
-		E301626A1AF1BBA100730D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30162691AF1BBA100730D27 /* ViewController.swift */; };
-		E301626D1AF1BBA100730D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E301626B1AF1BBA100730D27 /* Main.storyboard */; };
 		E301626F1AF1BBA100730D27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E301626E1AF1BBA100730D27 /* Images.xcassets */; };
-		E30162721AF1BBA100730D27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30162701AF1BBA100730D27 /* LaunchScreen.xib */; };
 		E301627E1AF1BBA200730D27 /* APDynamicHeaderTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301627D1AF1BBA200730D27 /* APDynamicHeaderTableViewControllerTests.swift */; };
+		E30162891AF1BBB000730D27 /* APDynamicHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30162871AF1BBB000730D27 /* APDynamicHeaderView.swift */; };
+		E301628A1AF1BBB000730D27 /* APDynamiceHeaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30162881AF1BBB000730D27 /* APDynamiceHeaderTableViewController.swift */; };
+		E301628C1AF1BBB700730D27 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301628B1AF1BBB700730D27 /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		E30162621AF1BBA100730D27 /* APDynamicHeaderTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APDynamicHeaderTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30162661AF1BBA100730D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E30162671AF1BBA100730D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E30162691AF1BBA100730D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E301626C1AF1BBA100730D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E30162671AF1BBA100730D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = APDynamicHeaderTableViewController/AppDelegate.swift; sourceTree = "<group>"; };
 		E301626E1AF1BBA100730D27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E30162711AF1BBA100730D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E30162771AF1BBA200730D27 /* APDynamicHeaderTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APDynamicHeaderTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E301627C1AF1BBA200730D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E301627D1AF1BBA200730D27 /* APDynamicHeaderTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDynamicHeaderTableViewControllerTests.swift; sourceTree = "<group>"; };
+		E30162871AF1BBB000730D27 /* APDynamicHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APDynamicHeaderView.swift; sourceTree = "<group>"; };
+		E30162881AF1BBB000730D27 /* APDynamiceHeaderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APDynamiceHeaderTableViewController.swift; sourceTree = "<group>"; };
+		E301628B1AF1BBB700730D27 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleViewController.swift; path = APDynamicHeaderTableViewController/SampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,8 @@
 		E30162591AF1BBA100730D27 = {
 			isa = PBXGroup;
 			children = (
+				E301628B1AF1BBB700730D27 /* SampleViewController.swift */,
+				E30162671AF1BBA100730D27 /* AppDelegate.swift */,
 				E30162641AF1BBA100730D27 /* APDynamicHeaderTableViewController */,
 				E301627A1AF1BBA200730D27 /* APDynamicHeaderTableViewControllerTests */,
 				E30162631AF1BBA100730D27 /* Products */,
@@ -77,11 +79,9 @@
 		E30162641AF1BBA100730D27 /* APDynamicHeaderTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E30162671AF1BBA100730D27 /* AppDelegate.swift */,
-				E30162691AF1BBA100730D27 /* ViewController.swift */,
-				E301626B1AF1BBA100730D27 /* Main.storyboard */,
+				E30162871AF1BBB000730D27 /* APDynamicHeaderView.swift */,
+				E30162881AF1BBB000730D27 /* APDynamiceHeaderTableViewController.swift */,
 				E301626E1AF1BBA100730D27 /* Images.xcassets */,
-				E30162701AF1BBA100730D27 /* LaunchScreen.xib */,
 				E30162651AF1BBA100730D27 /* Supporting Files */,
 			);
 			path = APDynamicHeaderTableViewController;
@@ -192,8 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E301626D1AF1BBA100730D27 /* Main.storyboard in Resources */,
-				E30162721AF1BBA100730D27 /* LaunchScreen.xib in Resources */,
 				E301626F1AF1BBA100730D27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E301626A1AF1BBA100730D27 /* ViewController.swift in Sources */,
+				E301628C1AF1BBB700730D27 /* SampleViewController.swift in Sources */,
+				E30162891AF1BBB000730D27 /* APDynamicHeaderView.swift in Sources */,
 				E30162681AF1BBA100730D27 /* AppDelegate.swift in Sources */,
+				E301628A1AF1BBB000730D27 /* APDynamiceHeaderTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +234,6 @@
 			targetProxy = E30162781AF1BBA200730D27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E301626B1AF1BBA100730D27 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E301626C1AF1BBA100730D27 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E30162701AF1BBA100730D27 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E30162711AF1BBA100730D27 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E301627F1AF1BBA200730D27 /* Debug */ = {
@@ -342,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = APDynamicHeaderTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = APDynamicHeaderTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
