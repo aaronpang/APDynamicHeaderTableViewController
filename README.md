@@ -9,7 +9,7 @@ A simple table view controller with a header view made as a recreation of the In
 
 ## How to Install ##
 
-Support for Cocoapods! Simply add the following to your Podfile:
+Support for CocoaPods! Simply add the following to your Podfile:
 
 <code>pod 'APDynamicHeaderTableViewController', '~>0.1.1'</code>
 
